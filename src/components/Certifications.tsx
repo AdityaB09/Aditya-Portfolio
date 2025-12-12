@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionWrapper from './SectionWrapper';
+import SectionWrapper from "./SectionWrapper";
 import '../assets/styles/Certifications.scss';
 
 const Certifications: React.FC = () => {
