@@ -1,0 +1,43 @@
+.publications {
+  background: #020617;
+}
+
+.publications__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.4rem;
+}
+
+.publications__card {
+  position: relative;
+  padding: 1.4rem 1.4rem 1.3rem;
+  border-radius: var(--radius-lg);
+  background: radial-gradient(circle at top left, rgba(129, 140, 248, 0.65), #020617 70%);
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  box-shadow: var(--shadow-soft);
+  font-size: 0.9rem;
+}
+
+.publications__card--highlight {
+  background: radial-gradient(circle at top right, rgba(16, 185, 129, 0.8), #022c22 65%);
+}
+
+.publications__tag {
+  margin: 0 0 0.4rem;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #bfdbfe;
+}
+
+.publications__meta {
+  margin-top: 0.7rem;
+  font-size: 0.8rem;
+  color: #e5e7eb;
+}
+
+@media (max-width: 880px) {
+  .publications__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
