@@ -207,3 +207,12 @@
     left: 2%;
   }
 }
+
+.hero__name {
+  white-space: nowrap;
+  display: inline-block;
+  background: linear-gradient(90deg, #ff6b6b, #ff9f43, #4bcffa, #575fcf);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
