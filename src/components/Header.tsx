@@ -19,7 +19,7 @@ const Header: React.FC = () => {
 
           {/* TITLE */}
           <h1 className="hero__title">
-            Hi, I’m <span>Aditya</span>.
+            Hi, I’m <span>Aditya Bagayatkar</span>.
             <br />
             I build AI-powered tools that feel simple, intuitive, and genuinely useful.
           </h1>
