@@ -11,18 +11,18 @@ function Footer() {
           <GitHubIcon />
         </a>
         {/* TODO: replace with your real LinkedIn URL */}
-        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/aditya-bagayatkar/" target="_blank" rel="noreferrer">
           <LinkedInIcon />
         </a>
       </div>
       <p>
         Portfolio built by Aditya Bagayatkar · Template by{" "}
         <a
-          href="https://github.com/yujisatojr/react-portfolio-template"
+          href="https://github.com/AdityaB09"
           target="_blank"
           rel="noreferrer"
         >
-          Yuji Sato
+          Aditya Bagayatkar
         </a>
       </p>
     </footer>
